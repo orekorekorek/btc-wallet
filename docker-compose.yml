@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    command: tail -f /dev/null
+    volumes:
+      - .:/app
+    restart: always
+    stdin_open: true
+    tty: true

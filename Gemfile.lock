@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.6)
+      public_suffix (>= 2.0.2, < 6.0)
+    base64 (0.2.0)
+    bitcoin-ruby (0.0.20)
+      eventmachine
+      ffi
+      scrypt
+    domain_name (0.6.20240107)
+    eventmachine (1.2.7)
+    ffi (1.16.3)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    http (5.2.0)
+      addressable (~> 2.8)
+      base64 (~> 0.1)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.2)
+      llhttp-ffi (~> 0.5.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    http-form_data (2.3.0)
+    llhttp-ffi (0.5.0)
+      ffi-compiler (~> 1.0)
+      rake (~> 13.0)
+    public_suffix (5.0.4)
+    rake (13.1.0)
+    scrypt (3.0.7)
+      ffi-compiler (>= 1.0, < 2.0)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  bitcoin-ruby
+  http
+
+RUBY VERSION
+   ruby 3.0.3p157
+
+BUNDLED WITH
+   2.2.32
