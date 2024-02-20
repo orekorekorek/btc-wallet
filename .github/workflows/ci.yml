@@ -1,0 +1,17 @@
+name: build + rspec
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  rspec:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build Docker Container
+      run: docker build .
+    - name: Run Specs
+      run: docker compose -f ci.docker-compose.yml run app bundle exec rspec

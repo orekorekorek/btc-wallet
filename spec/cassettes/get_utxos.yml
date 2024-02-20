@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://blockstream.info/testnet/api//address/mjrFHUTszcjByUjVQ7gRiB2BVkyJUNe6NS/utxo
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - blockstream.info
+      User-Agent:
+      - http.rb/5.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 20 Feb 2024 14:00:23 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '254'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=10
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - x-total-results
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '[{"txid":"6147834f9f144afb32631a172e16b936f53d8a7c653c7c1a3f5a555c810f7c3b","vout":1,"status":{"confirmed":true,"block_height":2578726,"block_hash":"0000000000000016eeb1f1cd589c1fe7992eecb7d8185944b3287a9d07a5831a","block_time":1708371504},"value":4389}]'
+  recorded_at: Tue, 20 Feb 2024 14:00:23 GMT
+- request:
+    method: get
+    uri: https://blockstream.info/testnet/api//address/mjrFHUTszcjByUjVQ7gRiB2BVkyJUNe6NS/utxo
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - blockstream.info
+      User-Agent:
+      - http.rb/5.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 20 Feb 2024 14:00:23 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '254'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=10
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - x-total-results
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '[{"txid":"6147834f9f144afb32631a172e16b936f53d8a7c653c7c1a3f5a555c810f7c3b","vout":1,"status":{"confirmed":true,"block_height":2578726,"block_hash":"0000000000000016eeb1f1cd589c1fe7992eecb7d8185944b3287a9d07a5831a","block_time":1708371504},"value":4389}]'
+  recorded_at: Tue, 20 Feb 2024 14:00:23 GMT
+recorded_with: VCR 6.2.0

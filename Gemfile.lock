@@ -4,16 +4,22 @@ GEM
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     base64 (0.2.0)
+    bigdecimal (3.1.6)
     bitcoin-ruby (0.0.20)
       eventmachine
       ffi
       scrypt
+    crack (1.0.0)
+      bigdecimal
+      rexml
+    diff-lcs (1.5.1)
     domain_name (0.6.20240107)
     eventmachine (1.2.7)
     ffi (1.16.3)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
+    hashdiff (1.1.0)
     http (5.2.0)
       addressable (~> 2.8)
       base64 (~> 0.1)
@@ -28,15 +34,38 @@ GEM
       rake (~> 13.0)
     public_suffix (5.0.4)
     rake (13.1.0)
+    rexml (3.2.6)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.0)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.0)
     scrypt (3.0.7)
       ffi-compiler (>= 1.0, < 2.0)
+    vcr (6.2.0)
+    webmock (3.21.2)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
 
 PLATFORMS
+  aarch64-linux
   arm64-darwin-22
 
 DEPENDENCIES
   bitcoin-ruby
   http
+  rspec
+  vcr
+  webmock
 
 RUBY VERSION
    ruby 3.0.3p157

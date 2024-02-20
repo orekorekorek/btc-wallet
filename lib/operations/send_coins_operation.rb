@@ -31,7 +31,7 @@ class SendCoinsOperation < BaseOperation
   def broadcast_transaction
     response = HTTP.post(broadcast_url, body: tx.to_payload.unpack('H*')[0])
     validate_response(response)
-    response.body
+    response.body.to_s
   end
 
   def tx

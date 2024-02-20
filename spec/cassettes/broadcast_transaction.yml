@@ -1,0 +1,221 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://blockstream.info/testnet/api//address/mjrFHUTszcjByUjVQ7gRiB2BVkyJUNe6NS/utxo
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - blockstream.info
+      User-Agent:
+      - http.rb/5.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 20 Feb 2024 14:13:03 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '508'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=10
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - x-total-results
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '[{"txid":"5b4a9aa3c6cfed432a53c12afb79feeccfec78ed8f7c06d847b32259d5c50582","vout":1,"status":{"confirmed":true,"block_height":2578838,"block_hash":"000000000000000f88c0707bb1dcb2792c9849e758e69e7c036925c529e945d6","block_time":1708438225},"value":80333},{"txid":"6147834f9f144afb32631a172e16b936f53d8a7c653c7c1a3f5a555c810f7c3b","vout":1,"status":{"confirmed":true,"block_height":2578726,"block_hash":"0000000000000016eeb1f1cd589c1fe7992eecb7d8185944b3287a9d07a5831a","block_time":1708371504},"value":4389}]'
+  recorded_at: Tue, 20 Feb 2024 14:13:03 GMT
+- request:
+    method: get
+    uri: https://blockstream.info/testnet/api//address/mjrFHUTszcjByUjVQ7gRiB2BVkyJUNe6NS/utxo
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - blockstream.info
+      User-Agent:
+      - http.rb/5.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 20 Feb 2024 14:13:04 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '508'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=10
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - x-total-results
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '[{"txid":"5b4a9aa3c6cfed432a53c12afb79feeccfec78ed8f7c06d847b32259d5c50582","vout":1,"status":{"confirmed":true,"block_height":2578838,"block_hash":"000000000000000f88c0707bb1dcb2792c9849e758e69e7c036925c529e945d6","block_time":1708438225},"value":80333},{"txid":"6147834f9f144afb32631a172e16b936f53d8a7c653c7c1a3f5a555c810f7c3b","vout":1,"status":{"confirmed":true,"block_height":2578726,"block_hash":"0000000000000016eeb1f1cd589c1fe7992eecb7d8185944b3287a9d07a5831a","block_time":1708371504},"value":4389}]'
+  recorded_at: Tue, 20 Feb 2024 14:13:04 GMT
+- request:
+    method: get
+    uri: https://blockstream.info/testnet/api//tx/5b4a9aa3c6cfed432a53c12afb79feeccfec78ed8f7c06d847b32259d5c50582/raw
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - blockstream.info
+      User-Agent:
+      - http.rb/5.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 20 Feb 2024 14:13:04 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '228'
+      Cache-Control:
+      - public, max-age=10
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - x-total-results
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        AgAAAAABAUf5n5r8X/lQUCXoOs0zjx4BNa41+nhK4Zp+nwQ4CcZ8AAAAAAD9////AlSs6d4AAAAAGXapFL1gDtJy5YuQkzs5NNBk6wBKafYriKzNOQEAAAAAABl2qRQvhpbFgjHFk1n1Zu57AlawY8W/vYisAkcwRAIgOveYxr/nqFNhUMm8AdF91JEE4JmroDfgqURMi58AZf0CIFI56hEVSjD2hv9LBaBBWGTcaPysj5zQd2sYvOJz3E0jASED0PEswAKfeG3pONt3yuYOfk08DbRDKVeoSQxIyW5lvlCVWScA
+  recorded_at: Tue, 20 Feb 2024 14:13:04 GMT
+- request:
+    method: get
+    uri: https://blockstream.info/testnet/api//tx/6147834f9f144afb32631a172e16b936f53d8a7c653c7c1a3f5a555c810f7c3b/raw
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - blockstream.info
+      User-Agent:
+      - http.rb/5.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 20 Feb 2024 14:13:04 GMT
+      Content-Type:
+      - application/octet-stream
+      Content-Length:
+      - '226'
+      Cache-Control:
+      - public, max-age=157784630
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - x-total-results
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        AQAAAAH7lXWheWzZSXMkNMERhV+vL463SEq4m06PEyPeoboW3QEAAABrSDBFAiEA3J+veo4PpLy05ewSFNFJXwYYAopNTvhUDXIUdeESfyoCIAxtGBunM4mbfXeiwKHgVbDmKOVidsvXHoQg1YqFJZjEASEDjM6ENLuWE1gZwZYup/aYFslfZ+KsbB0AdsI/b+ZglO7/////AvcEAAAAAAAAGXapFHjL+4Nk8bHPyWiFXPMHJWK+2fKDiKwlEQAAAAAAABl2qRQvhpbFgjHFk1n1Zu57AlawY8W/vYisAAAAAA==
+  recorded_at: Tue, 20 Feb 2024 14:13:04 GMT
+- request:
+    method: post
+    uri: https://blockstream.info/testnet/api//tx
+    body:
+      encoding: US-ASCII
+      string: '01000000028205c5d55922b347d8067c8fed78eccfecfe79fb2ac1532a43edcfc6a39a4a5b010000006a473044022030931d5a14a1bd8812bee4f1f0f61343854f9d6d2807ef95e5d39f0cb654c1b502203e8e44e25b077520c7f81ffaab9f76a75272be774872d5498431205494868d600121038cce8434bb96135819c1962ea7f69816c95f67e2ac6c1d0076c23f6fe66094eeffffffff3b7c0f815c555a3f1a7c3c657c8a3df536b9162e171a6332fb4a149f4f834761010000006a4730440220496d855daf14a79962bce2cba8b5f403cc79eefffca5a3728ed3aad95ef84bcb0220647a7332c699dfa11ca3d450778dd6b13d23c9539cd6c445bac60fa69e8ee3cf0121038cce8434bb96135819c1962ea7f69816c95f67e2ac6c1d0076c23f6fe66094eeffffffff02e8030000000000001976a91478cbfb8364f1b1cfc968855cf3072562bed9f28388ac94450100000000001976a9142f8696c58231c59359f566ee7b0256b063c5bfbd88ac00000000'
+    headers:
+      Connection:
+      - close
+      Host:
+      - blockstream.info
+      User-Agent:
+      - http.rb/5.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 20 Feb 2024 14:13:05 GMT
+      Content-Type:
+      - text/plain
+      Content-Length:
+      - '64'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - x-total-results
+      Via:
+      - 1.1 google
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: 7765f70117e2d49949611c4e9ce2e21ddaa7f19ef29ae9673b654d70b47bc4d9
+  recorded_at: Tue, 20 Feb 2024 14:13:05 GMT
+recorded_with: VCR 6.2.0
